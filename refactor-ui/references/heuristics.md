@@ -1,6 +1,6 @@
 # UI Refactoring Heuristics
 
-Use this checklist when reviewing a UI screen, component, or screenshot. Start at the top; later categories should support earlier decisions.
+Use this checklist when reviewing a UI screen, component, or screenshot. Start at the top; later categories should support earlier decisions. If a guideline feels too abstract, read `examples.md` for original before/after patterns.
 
 ## 1. Product Intent
 

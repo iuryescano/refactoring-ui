@@ -1,6 +1,6 @@
 # UI Refactoring Recipes
 
-Use these recipes when you recognize a common UI weakness. Combine only the moves that fit the local product and component system.
+Use these recipes when you recognize a common UI weakness. Combine only the moves that fit the local product and component system. Read `examples.md` when a recipe needs a concrete before/after calibration.
 
 ## Screen Feels Generic
 

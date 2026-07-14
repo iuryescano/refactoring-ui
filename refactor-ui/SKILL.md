@@ -1,6 +1,6 @@
 ---
 name: refactor-ui
-description: Practical UI refactoring and visual design review inspired by Refactoring UI by Steve Schoger and Adam Wathan. Use when an AI coding agent needs to improve an existing interface, audit visual polish, redesign a rough UI, review frontend code for hierarchy/spacing/typography/color/depth/image issues, or turn a plain implementation into a cleaner product-quality screen.
+description: Practical UI refactoring and visual design review inspired by Refactoring UI by Steve Schoger and Adam Wathan. Use when an AI coding agent needs to improve an existing interface, audit visual polish, redesign a rough UI, review frontend code for hierarchy/spacing/typography/color/depth/image issues, or turn a plain implementation into a cleaner product-quality screen. Do not use for creating UI from scratch, scaffolding a new app, building a new landing page, or designing a new design system unless the user explicitly asks to review or refactor an existing interface.
 ---
 
 # Refactor UI
@@ -13,13 +13,23 @@ This skill is an original operational playbook inspired by *Refactoring UI* by S
 
 ## Core Workflow
 
-1. Identify the user's job, the main object on the screen, and the one or two primary actions.
-2. Audit the current UI in this order: hierarchy, grouping, spacing, typography, action priority, color, depth, imagery, states, and final polish.
-3. Read `references/heuristics.md` when you need the full checklist for a screen or component.
-4. Read `references/recipes.md` when you need concrete refactoring moves for common weak UI patterns.
-5. Implement changes in the codebase using existing design tokens, components, CSS utilities, and local conventions first.
-6. Verify at desktop and mobile widths. If a browser is available, inspect screenshots for overlap, cramped spacing, weak contrast, broken line lengths, awkward empty states, and unintended layout shifts.
-7. Report the most important visual changes and any remaining tradeoffs.
+1. Confirm the task is about auditing, polishing, or refactoring an existing interface. If the user is asking for new UI from scratch, do not use this skill unless they explicitly request a refactoring-style review of an existing draft or screen.
+2. Identify the user's job, the main object on the screen, and the one or two primary actions.
+3. Read `references/heuristics.md` before auditing any screen, component, or screenshot.
+4. Audit the current UI in this order: hierarchy, grouping, spacing, typography, action priority, color, depth, imagery, states, and final polish.
+5. Read `references/recipes.md` before implementing fixes for common weak UI patterns.
+6. Read `references/examples.md` when the guidance feels too abstract or you need a concrete before/after pattern.
+7. Implement changes in the codebase using existing design tokens, components, CSS utilities, and local conventions first.
+8. Verify at desktop and mobile widths. If a browser or preview is available, inspect screenshots for overlap, cramped spacing, weak contrast, broken line lengths, awkward empty states, and unintended layout shifts. If preview is unavailable, ask the user for desktop and mobile screenshots; if screenshots are not available, report that visual validation was limited.
+9. Report the most important visual changes and any remaining tradeoffs.
+
+## Scope Control
+
+- Prefer the smallest diff that achieves the visual goal.
+- Do not restructure components, data flow, routes, state management, or behavior for polish alone.
+- Restructure markup only when hierarchy, accessibility, or responsive layout requires it.
+- Preserve functional behavior, test selectors, public component APIs, and existing product density.
+- When a broad redesign seems tempting, first make the primary object, grouping, spacing, and action priority clearer within the current architecture.
 
 ## Refactoring Priorities
 
