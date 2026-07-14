@@ -21,7 +21,18 @@ refactor-ui/
 - `references/recipes.md` contains concrete refactoring moves for common UI problems.
 - `agents/openai.yaml` is optional metadata for OpenAI/Codex-style skill UIs.
 
-## Install For Codex
+## Install With Your Agent
+
+If you are using an Agent Skills-compatible tool such as Codex, Claude Code, Cursor, Kilo Code, or another coding agent, you can ask the agent to install this skill for you:
+
+```text
+Install the refactor-ui skill from https://github.com/iuryescano/refactor-ui-skill.
+Configure it for this agent environment, keep the references/ directory intact, reload or restart the agent if required, and confirm that the skill is available.
+```
+
+The agent should handle the correct local setup for its environment, such as copying `refactor-ui/` into the appropriate skills directory, preserving bundled references, and making the skill available as `refactor-ui`.
+
+## Manual Install For Codex
 
 Clone the repo and copy the skill folder into your Codex skills directory:
 
