@@ -1,6 +1,8 @@
-# Refactor UI Skill
+# Refactoring UI Skill
 
-Practical UI refactoring guidance for AI coding agents working on web apps, dashboards, forms, product screens, landing pages, component libraries, and screenshots.
+An unofficial Agent Skill inspired by *Refactoring UI* by Steve Schoger and Adam Wathan.
+
+This project turns the book's visual refactoring mindset into an original, Markdown-first skill for AI coding agents working on web apps, dashboards, forms, product screens, landing pages, component libraries, and screenshots. It is not affiliated with the authors and does not reproduce the book text.
 
 The skill helps an agent diagnose visual communication first, then make focused improvements to hierarchy, grouping, spacing, typography, action priority, color, depth, imagery, states, and finishing polish.
 
@@ -26,7 +28,7 @@ refactor-ui/
 If you are using an Agent Skills-compatible tool such as Codex, Claude Code, Cursor, Kilo Code, or another coding agent, you can ask the agent to install this skill for you:
 
 ```text
-Install the refactor-ui skill from https://github.com/iuryescano/refactor-ui-skill.
+Install the refactor-ui skill from https://github.com/iuryescano/refactoring-ui.
 Configure it for this agent environment, keep the references/ directory intact, reload or restart the agent if required, and confirm that the skill is available.
 ```
 
@@ -37,8 +39,8 @@ The agent should handle the correct local setup for its environment, such as cop
 Clone the repo and copy the skill folder into your Codex skills directory:
 
 ```bash
-git clone https://github.com/iuryescano/refactor-ui-skill.git
-cp -R refactor-ui-skill/refactor-ui ~/.codex/skills/
+git clone https://github.com/iuryescano/refactoring-ui.git
+cp -R refactoring-ui/refactor-ui ~/.codex/skills/
 ```
 
 Then invoke it explicitly:

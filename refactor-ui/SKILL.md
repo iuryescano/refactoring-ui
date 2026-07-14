@@ -1,6 +1,6 @@
 ---
 name: refactor-ui
-description: Practical UI refactoring and visual design review for web apps, dashboards, forms, product screens, landing pages, component libraries, and screenshots. Use when an AI coding agent needs to improve an existing interface, audit visual polish, redesign a rough UI, review frontend code for hierarchy/spacing/typography/color/depth/image issues, or turn a plain implementation into a cleaner product-quality screen.
+description: Practical UI refactoring and visual design review inspired by Refactoring UI by Steve Schoger and Adam Wathan. Use when an AI coding agent needs to improve an existing interface, audit visual polish, redesign a rough UI, review frontend code for hierarchy/spacing/typography/color/depth/image issues, or turn a plain implementation into a cleaner product-quality screen.
 ---
 
 # Refactor UI
@@ -9,7 +9,7 @@ description: Practical UI refactoring and visual design review for web apps, das
 
 Refactor interfaces by diagnosing visual communication first, then applying focused changes to hierarchy, spacing, typography, color, depth, imagery, states, and polish. Favor small, high-leverage improvements that make the UI easier to understand and more deliberate.
 
-This skill is an original operational playbook derived from UI refactoring principles. Do not reproduce long passages from source material; use the references here as working heuristics.
+This skill is an original operational playbook inspired by *Refactoring UI* by Steve Schoger and Adam Wathan. It is not affiliated with the authors and does not reproduce the book text; use the references here as working heuristics.
 
 ## Core Workflow
 
