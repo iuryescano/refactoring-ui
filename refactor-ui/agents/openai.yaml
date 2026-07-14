@@ -1,0 +1,4 @@
+interface:
+  display_name: "Refactor UI"
+  short_description: "Practical UI refactoring heuristics"
+  default_prompt: "Use $refactor-ui to audit and refactor this interface for hierarchy, spacing, typography, color, depth, imagery, and polish."
